@@ -26,10 +26,10 @@ propriedade da classe
 - e no {ataque} deve seguir uma descrição diferente
 o tipo, seguindo a tabela abaixo:
 
-Se mago -> no ataque exibir (usou magia)
-Se guerreiro -> no ataque exibir (usou espada)
-Se monge -> no ataque exibir (usou artes marciais)
-Se ninja -> no ataque exibir (usou shuriken) 
+* Se mago -> no ataque exibir (usou magia)
+* Se guerreiro -> no ataque exibir (usou espada)
+* Se monge -> no ataque exibir (usou artes marciais)
+* Se ninja -> no ataque exibir (usou shuriken) 
 
 ## Saída
 
