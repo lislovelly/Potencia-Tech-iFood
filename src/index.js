@@ -62,3 +62,40 @@ function Rankeadas(vitorias, derrotas) {
 }
 
 ////////////////////////////////////////////////////////////////////
+
+console.log("Desafio Escrevendo as classes de um jogo");
+class Heroi{
+  constructor(nome, idade, tipo, ataque){
+    this.nome = nome
+    this.idade = idade
+    this.tipo = tipo
+    this.ataque = ataque
+  }
+  acao(){
+      let ataque;
+      if(this.tipo === "mago"){
+          ataque = "magia"
+      }else if(this.tipo === "guerreiro"){
+          ataque = "espada"
+      }else if (this.tipo === "monge"){
+          ataque = "artes marciais"
+      }else{
+          ataque = "shuriken"
+      }
+      console.log(`O ${this.tipo} atacou usando ${ataque}`)
+  }
+}
+
+let heroi1 = new Heroi("Gandalf", 80, "mago");
+let heroi2 = new Heroi("Mandubrath", 76, "guerreiro");
+let heroi3 = new Heroi("Amadeus", 68, "monge");
+let heroi4 = new Heroi("Sneak", 56, "ninja");
+
+heroi1.acao()
+heroi2.acao()
+heroi3.acao()
+heroi4.acao()
+
+
+
+
